@@ -1,0 +1,12 @@
+{
+	"name": "stream-video",
+	"version": "1.0.0",
+	"description": "",
+	"main": "video.js",
+	"scripts": {
+		"start": "node video.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

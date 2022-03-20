@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Video Streaming</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="" />
+	</head>
+	<style>
+		html {
+			width: 100%;
+			height: 100%;
+			padding: 0px;
+			margin: 0px;
+		}
+		body {
+			width: 100%;
+			height: 100%;
+			padding: 0px;
+			margin: 0px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #3a3d3a;
+		}
+
+		.screen {
+			width: 500px;
+			height: 250px;
+			box-shadow: 0 8px 8px -4px black;
+		}
+
+		#video {
+			width: 500px;
+			height: 250px;
+		}
+	</style>
+	<body>
+		<div class="screen">
+			<video id="video" src="/video" controls></video>
+		</div>
+		<script src="" async defer></script>
+	</body>
+</html>
