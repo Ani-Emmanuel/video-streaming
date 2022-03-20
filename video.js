@@ -2,6 +2,7 @@ const { createServer } = require('http');
 const { createReadStream, statSync } = require('fs');
 const { parse } = require('url');
 
+const PORT = process.env.PORT || 3000;
 const app = createServer((req, res) => {
 	const path = parse(req.url).pathname;
 	if (path == '/' || path == '/index.html') {
@@ -39,4 +40,4 @@ const app = createServer((req, res) => {
 	}
 });
 
-app.listen(3000, () => console.log(`Speak to me on port: ${3000}`));
+app.listen(PORT, () => console.log(`Speak to me on port: ${PORT}`));
